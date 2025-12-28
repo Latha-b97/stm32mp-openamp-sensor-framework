@@ -1,0 +1,17 @@
+# STM32CubeIDE
+**/Debug/
+**/Release/
+**/.settings/
+**/.metadata/
+*.elf
+*.bin
+*.map
+
+# VS Code / Linux builds
+*.o
+*.out
+.vscode/
+
+# OS
+.DS_Store
+
