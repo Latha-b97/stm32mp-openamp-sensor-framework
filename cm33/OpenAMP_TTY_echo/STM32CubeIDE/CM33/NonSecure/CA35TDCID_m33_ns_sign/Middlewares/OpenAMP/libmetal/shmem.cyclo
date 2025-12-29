@@ -1,0 +1,5 @@
+./libmetal/lib/include/metal/list.h:48:20:metal_list_add_before	1
+./libmetal/lib/include/metal/list.h:72:20:metal_list_add_tail	1
+./libmetal/lib/include/metal/io.h:120:22:metal_io_region_size	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/libmetal/lib/shmem.c:18:5:metal_shmem_register_generic	2
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/libmetal/lib/shmem.c:31:5:metal_shmem_open_generic	4

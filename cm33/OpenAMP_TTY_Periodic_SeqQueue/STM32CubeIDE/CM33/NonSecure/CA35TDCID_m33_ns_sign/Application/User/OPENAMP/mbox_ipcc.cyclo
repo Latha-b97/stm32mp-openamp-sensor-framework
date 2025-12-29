@@ -1,0 +1,6 @@
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/mbox_ipcc.c:82:5:MAILBOX_Init	4
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/mbox_ipcc.c:119:5:MAILBOX_Poll	3
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/mbox_ipcc.c:166:5:MAILBOX_Notify	5
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/mbox_ipcc.c:212:6:IPCC_channel1_callback	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/mbox_ipcc.c:235:6:IPCC_channel2_callback	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/mbox_ipcc.c:265:13:CoproSync_DetachCb	1

@@ -1,0 +1,11 @@
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:42:6:NMI_Handler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:51:6:HardFault_Handler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:64:6:SecureFault_Handler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:77:6:MemManage_Handler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:90:6:BusFault_Handler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:103:6:UsageFault_Handler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:116:6:DebugMon_Handler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:125:6:PendSV_Handler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:134:6:SysTick_Handler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:139:6:IPCC1_RX_IRQHandler	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_Periodic_SeqQueue/CM33/NonSecure/Core/Src/stm32mp2xx_it.c:153:6:SVC_Handler	0	static

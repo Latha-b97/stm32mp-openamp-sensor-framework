@@ -1,0 +1,17 @@
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:254:19:HAL_DMA_Init	16	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:378:19:HAL_DMA_DeInit	16	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:508:19:HAL_DMA_Start	24	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:563:19:HAL_DMA_Start_IT	24	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:639:19:HAL_DMA_Abort	16	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:751:19:HAL_DMA_Abort_IT	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:803:19:HAL_DMA_PollForTransfer	24	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:975:6:HAL_DMA_IRQHandler	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:1239:19:HAL_DMA_RegisterCallback	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:1324:19:HAL_DMA_UnRegisterCallback	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:1438:22:HAL_DMA_GetState	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:1450:10:HAL_DMA_GetError	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:1494:19:HAL_DMA_ConfigChannelAttributes	16	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:1602:19:HAL_DMA_GetConfigChannelAttributes	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:1701:19:HAL_DMA_GetLockChannelAttributes	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:1771:19:HAL_DMA_ReleaseChannelSemaphore	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_dma.c:1731:19:HAL_DMA_TakeChannelSemaphore	8	static

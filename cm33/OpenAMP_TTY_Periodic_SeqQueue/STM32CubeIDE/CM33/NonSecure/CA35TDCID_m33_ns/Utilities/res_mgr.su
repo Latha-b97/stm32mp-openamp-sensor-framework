@@ -1,0 +1,8 @@
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Utilities/ResourcesManager/res_mgr.c:335:24:GetBaseAddrRIF	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Utilities/ResourcesManager/res_mgr.c:448:17:ResMgr_GetPrivStatus	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Utilities/ResourcesManager/res_mgr.c:462:17:ResMgr_GetSecStatus	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Utilities/ResourcesManager/res_mgr.c:421:10:GetCoreMode	0	static,ignoring_inline_asm
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Utilities/ResourcesManager/res_mgr.c:650:17:ResMgr_Request	64	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Utilities/ResourcesManager/res_mgr.c:735:17:ResMgr_Release	64	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Utilities/ResourcesManager/res_mgr.c:547:17:ResMgr_GPIO_Request	32	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Utilities/ResourcesManager/res_mgr.c:605:17:ResMgr_GPIO_Release	16	static
