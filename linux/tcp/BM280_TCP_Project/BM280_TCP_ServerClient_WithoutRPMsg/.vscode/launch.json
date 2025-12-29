@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug server",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/STMServer/server",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/STMServer",
+            "environment": [],
+            "externalConsole": false, // Set to true to use an external console
+            "preLaunchTask": "build with g++ - server",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Debug client",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/UbuntuClient/client",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/UbuntuClient",
+            "environment": [],
+            "externalConsole": false, // Set to true to use an external console
+            "preLaunchTask": "build with g++ - client",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build server", // server is on STM, so use "aarch64-linux-gnu-g++",
+            "type": "shell",
+            "command":"aarch64-linux-gnu-g++",// make sure it is 64-bit ARM (aarch64)) //"/usr/bin/g++",
+            "args": [
+                "-std=c++17",
+                "-Wall",
+                "-g",
+                "server.cpp",
+                "-o",
+                "server"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/STMServer"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "build client",
+            "type": "shell",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-std=c++17",
+                "-Wall",
+                "-g",
+                "client.cpp",
+                "-o",
+                "client"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/UbuntuClient"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
