@@ -1,0 +1,6 @@
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/Core/Src/main.c:430:6:VIRT_UART0_RxCpltCallback	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/Core/Src/main.c:451:6:VIRT_UART1_RxCpltCallback	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/Core/Src/main.c:121:5:main	16
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/Core/Src/main.c:478:6:CoproSync_ShutdownCb	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/Core/Src/main.c:499:6:assert_failed	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/Core/Src/main.c:518:6:Error_Handler	1

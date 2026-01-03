@@ -1,0 +1,5 @@
+./libmetal/lib/include/metal/io.h:132:1:metal_io_virt	16	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/libmetal/lib/io.c:12:6:metal_io_init	64	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/libmetal/lib/io.c:35:5:metal_io_block_read	56	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/libmetal/lib/io.c:72:5:metal_io_block_write	56	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/libmetal/lib/io.c:109:5:metal_io_block_set	56	static

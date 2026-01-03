@@ -1,0 +1,16 @@
+./libmetal/lib/include/metal/io.h:161:1:metal_io_phys	4	static
+./libmetal/lib/include/metal/io.h:206:1:metal_io_phys_to_virt	16	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:73:5:virtqueue_create	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:121:5:virtqueue_add_buffer	56	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:185:7:virtqueue_get_buffer	20	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:223:10:virtqueue_get_buffer_length	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:229:7:virtqueue_get_buffer_addr	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:241:6:virtqueue_free	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:264:7:virtqueue_get_available_buffer	16	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:305:5:virtqueue_add_consumed_buffer	12	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:348:5:virtqueue_enable_cb	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:359:6:virtqueue_disable_cb	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:401:6:virtqueue_kick	8	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:421:6:virtqueue_dump	48	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:447:10:virtqueue_get_desc_size	0	static
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/open-amp/lib/virtio/virtqueue.c:707:6:virtqueue_notification	0	static

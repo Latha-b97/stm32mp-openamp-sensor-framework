@@ -1,0 +1,7 @@
+./libmetal/lib/include/metal/system/generic/mutex.h:65:20:__metal_mutex_acquire	3
+./libmetal/lib/include/metal/system/generic/mutex.h:75:20:__metal_mutex_release	1
+./libmetal/lib/include/metal/system/generic/mutex.h:80:19:__metal_mutex_is_acquired	1
+./libmetal/lib/include/metal/mutex.h:57:20:metal_mutex_acquire	1
+./libmetal/lib/include/metal/mutex.h:67:20:metal_mutex_release	1
+./libmetal/lib/include/metal/mutex.h:77:19:metal_mutex_is_acquired	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Middlewares/Third_Party/OpenAMP/libmetal/lib/system/generic/condition.c:17:5:metal_condition_wait	8

@@ -1,0 +1,8 @@
+../../../../../../../../../Middlewares/Third_Party/OpenAMP/open-amp/lib/include/openamp/rpmsg.h:534:28:is_rpmsg_ept_ready	4
+./libmetal/lib/include/metal/device.h:147:1:metal_device_io_region	2
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/openamp.c:75:12:OPENAMP_shmem_init	7
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/openamp.c:147:5:MX_OPENAMP_Init	5
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/openamp.c:220:6:OPENAMP_DeInit	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/openamp.c:236:5:OPENAMP_create_endpoint	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/openamp.c:254:5:OPENAMP_check_for_message	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_TTY_echo/CM33/NonSecure/OPENAMP/openamp.c:262:6:OPENAMP_Wait_EndPointready	2

@@ -1,0 +1,8 @@
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_i2c_ex.c:101:19:HAL_I2CEx_ConfigAnalogFilter	12
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_i2c_ex.c:145:19:HAL_I2CEx_ConfigDigitalFilter	12
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_i2c_ex.c:213:19:HAL_I2CEx_EnableWakeUp	11
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_i2c_ex.c:252:19:HAL_I2CEx_DisableWakeUp	11
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_i2c_ex.c:309:19:HAL_I2CEx_ConfigFastModePlus	13
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_i2c_ex.c:377:19:HAL_I2CEx_SetConfigAutonomousMode	9
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_i2c_ex.c:425:19:HAL_I2CEx_GetConfigAutonomousMode	2
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Drivers/STM32MP2xx_HAL_Driver/Src/stm32mp2xx_hal_i2c_ex.c:464:19:HAL_I2CEx_ClearConfigAutonomousMode	4

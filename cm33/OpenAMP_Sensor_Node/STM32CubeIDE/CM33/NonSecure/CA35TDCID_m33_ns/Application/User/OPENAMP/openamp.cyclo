@@ -1,0 +1,5 @@
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/OPENAMP/openamp.c:150:5:MX_OPENAMP_Init	10
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/OPENAMP/openamp.c:223:6:OPENAMP_DeInit	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/OPENAMP/openamp.c:239:5:OPENAMP_create_endpoint	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/OPENAMP/openamp.c:257:6:OPENAMP_check_for_message	1
+/home/latha/Documents/stm32cubemp2-v1-2-0/STM32Cube_FW_MP2_V1.2.0/Projects/STM32MP257F-DK/Applications/OpenAMP/OpenAMP_Sensor_Node/CM33/NonSecure/OPENAMP/openamp.c:266:6:OPENAMP_Wait_EndPointready	4
