@@ -24,9 +24,10 @@ This document describes how to boot the STM32MP257F-DK using the OpenSTLinux sta
 
 ## Verify SD Card Layout 
 sync and verify that it is written correctly to the SD micro card
-	- sudo sync
-	- sudo sgdisk -p /dev/sdd  ( y should see DK partitions for bootfs, vendorfs, rootfs, userfs)
 
+	- sudo sync
+	- sudo sgdisk -p /dev/sdd (you should see DK partitions for bootfs, vendorfs, rootfs, userfs)
+	
 ## Boot Configuration (SD Card Boot)
  - The STM32MP257F-DK boots from the microSD card by default when a valid image is present.
  - No BOOT switch changes are required for SD card boot on this board.
