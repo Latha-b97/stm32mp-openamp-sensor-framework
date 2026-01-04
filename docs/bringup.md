@@ -1,9 +1,15 @@
 # Bring-up Notes
 
-## Overview
-This document describes how to boot the STM32MP257F-DK using the OpenSTLinux starter image on a microSD card.
+This document covers:
+1. Booting the STM32MP257F-DK using the OpenSTLinux starter image on a microSD card
+2. Setting up development environment using STM32CubeIDE and STM32CubeMP2 Firmware Package
 
-## Things needed:
+## 1. Boot setup - STM32MP257F-DK
+
+### Overview
+This section describes how to boot the STM32MP257F-DK using the OpenSTLinux starter image on a microSD card.
+
+### Hardware needed:
 - STM32MP257F-DK
 - SD micro card
 - microSD card reader
@@ -12,23 +18,23 @@ This document describes how to boot the STM32MP257F-DK using the OpenSTLinux sta
   Note: Set up is done on Ubuntu system
 
   
-## STM Starter package and files to download:
+### STM Starter package and files to download:
   - Starter Package - https://wiki.st.com/stm32mpu/wiki/STM32MP25_Discovery_kits_-_Starter_Package?utm_source=chatgpt.com#Downloading_the_image_and_flashing_it_on_the_board
   - Hardware Description - https://wiki.st.com/stm32mpu/wiki/STM32MP257x-DKx_-_hardware_description
   - Download FLASH-stm32mp2-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11.tar -  https://www.st.com/en/embedded-software/stm32mp2starter.html (Download - MP2-START-A35-TD 	STM32MP2 OpenSTLinux Starter Package for **A35-TD flavor)**
 
-## Flash Image into microSD card
+### Flash Image into microSD card
 - Connect the SD card Reader to the USB A( Don't connect the STM board yet)
 - In the terminal, identify the SD card device using **lsblk** (for example /dev/sdd). Be very careful to select the correct device.
 - sudo dd if=flashlayout_st-image-weston/optee/../../FlashLayout_sdcard_stm32mp257f-dk-optee.raw of=/dev/sdd bs=8M conv=fdatasync status=progress
 
-## Verify SD Card Layout 
-sync and verify that it is written correctly to the SD micro card
+	### Verify SD Card Layout 
+	sync and verify that it is written correctly to the SD micro card
 
 	- sudo sync
 	- sudo sgdisk -p /dev/sdd (you should see DK partitions for bootfs, vendorfs, rootfs, userfs)
 	
-## Boot Configuration (SD Card Boot)
+### Boot Configuration (SD Card Boot)
  - The STM32MP257F-DK boots from the microSD card by default when a valid image is present.
  - No BOOT switch changes are required for SD card boot on this board.
  
@@ -36,7 +42,7 @@ sync and verify that it is written correctly to the SD micro card
        - Set the BOOT configuration switches to SD-card boot mode before powering on the board.
        - Refer to the hardware manual for switch locations.
                                                                           
-## Board Setup and First Boot
+### Board Setup and First Boot
 
 Power is supplied via the USB-C connection on CN21.
 
@@ -58,17 +64,17 @@ Power is supplied via the USB-C connection on CN21.
     INFO:    Boot used partition fsbl1
 
 
-## To unmount
+### To unmount
 	- sudo umount /dev/**sdd*** ( where sdd is the port/mount where the device is mounted)
 	- sudo sync
 
-## Get the IP Addr to ssh to the board
+### Get the IP Addr to ssh to the board
 To get the board's IP address
   - Connect a ethernet cable to the STM board directly from the router or switch that provides DHCP.
   - use "ip addr show end0" command to get the IP address
 
 
-# Quick Start( Next time)
+### Quick Start( Next time)
 - Insert the SD card.
 - Connect the USBC CN21 out cable to the computer
 - Connect the Ethernet cable to get the IP address
@@ -81,4 +87,36 @@ To get the board's IP address
     4. User: root; password:(none)
   
 
-  
+## 2. Development Environment Setup
+
+### 2.1 Installing STM32CubeIDE
+- Open, build, and edit the projects from the Firmware Package
+Compile M33 firmware
+
+Download STM32CubeIDE
+https://www.st.com/en/development-tools/stm32cubeide.html
+
+> **Note:** This project was developed using STM32CubeIDE on an Ubuntu Linux host.
+
+### 2.2 Installing STM32CubeMP2 Firmware Package
+- Contains example code for
+	- M33 (bare-metal and FreeRTOS examples)
+	- A35 Linux-side applications
+	- OpenAMP (RPMsg, remoteproc)
+	- Peripherals (I2C, UART, GPIO, etc.)
+   
+ Download STM32CubeMP2 Firmware Package:
+ https://www.st.com/en/embedded-software/stm32cubemp2.html
+
+
+### 2.3 Worspace setup
+STM32CubeIDE uses a *workspace* directory that stores IDE metadata only.
+The actual firmware projects remain in their original locations within the
+STM32CubeMP2 Firmware Package directory.
+
+Typical setup:
+- Workspace: contains `.metadata` only
+- Projects: located under  
+  `.../STM32Cube_FW_MP2_V*/Projects/STM32MP257F-DK/Applications/OpenAMP`
+
+This allows working directly with example projects without copying them into the workspace.
