@@ -1,18 +1,17 @@
 ## <b>OpenAMP_TTY_Periodic SequenceQueue Description</b>
 
--  It demonstrates How to use OpenAMP MW + Virtual UART to create an Inter-Processor Communication channel seen as TTY device in Linux OS.
--  This project deals with CPU2 (Cortex-M33) firmware and requires Linux OS running on CPU1 (Cortex-A35).
+Purpose:
 
-- Following command should be done in Linux console to run the example :
+Demonstrates periodic message generation with sequencing from CM33 to Linux over OpenAMP RPMsg. Builds on the minimal echo example by adding structured data handling..
+Description:
 
-        stty -onlcr -echo -F /dev/ttyRPMSG0
-        cat /dev/ttyRPMSG0 &
-        stty -onlcr -echo -F /dev/ttyRPMSG1
-        cat /dev/ttyRPMSG1 &
-        echo "Hello Virtual UART0" >/dev/ttyRPMSG0
-        echo "Hello Virtual UART1" >/dev/ttyRPMSG1
+Builds on OpenAMP_TTY_echo by introducing periodic data transmission and a sequence queue mechanism. Instead of simple echoing, the CM33 sends structured messages at fixed intervals, store them in a ring buffer, and transmit them reliably to Linux using OpenAMP.
+Key concepts covered:
 
-You should get "Hello Virtual UART0" and "Hello Virtual UART1" in Linux console
+Periodic sample message generation Message sequencing using a ring buffer Helper functions for enqueue/dequeue of messages Handling back-to-back RPMsg sends Consumer logic gated
+Role in the framework:
+
+Serves as a stepping stone toward sensor data streaming and flow-control aware designs.
 
 ### <b>Keywords</b>
 
