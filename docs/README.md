@@ -2,4 +2,4 @@
 
 <In Progress>
 
-Refer cm33\README.md
+Refer cm33\README.md and linux\README.md 
