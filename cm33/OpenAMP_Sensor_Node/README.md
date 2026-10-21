@@ -1,42 +1,44 @@
-## <b>OpenAMP_TTY_echo Application Description</b>
+## <b>OpenAMP_Sensor Node Description</b>
 
--  It demonstrates How to use OpenAMP MW + Virtual UART to create an Inter-Processor Communication channel seen as TTY device in Linux OS.
--  This project deals with CPU2 (Cortex-M33) firmware and requires Linux OS running on CPU1 (Cortex-A35).
+1. We are starting with OpenAMP_Sensor_Node, which is simply a copy of OpenAMP_TTY_periodic_SeqQueue
+2. In this step, we  need to
+		- Create project for OpenAMP_Sensor_node.
+		- Enable I2C peripheral for BME280.
+		- Enable OpenAMP (RPMsg) middleware.
+		- Set CM33 as remote core, A35 as master.
 
-- Following command should be done in Linux console to run the example :
+With the IOC file, we need to do the following and generate the code
+	- Enable OpenAMP
+	- Enable I2C for BME280
+	- Enable basic clock + GPIO
+	and then generate the code for OpenAMP support, I2C HAL, and CM33 startup.
 
-        stty -onlcr -echo -F /dev/ttyRPMSG0
-        cat /dev/ttyRPMSG0 &
-        stty -onlcr -echo -F /dev/ttyRPMSG1
-        cat /dev/ttyRPMSG1 &
-        echo "Hello Virtual UART0" >/dev/ttyRPMSG0
-        echo "Hello Virtual UART1" >/dev/ttyRPMSG1
+We are setting up
+**BME280 → CM33 = I2C**
+CM33 → Linux = RPMsg (OpenAMP)
 
-You should get "Hello Virtual UART0" and "Hello Virtual UART1" in Linux console
+   [BME280]
+   │
+   │  I2C (HAL_I2C_Mem_Read)
+   ▼
+[CM33 RAM]
+   │
+   │  struct sensor_msg
+   ▼
+[RPMsg buffer]
+   │
+   ▼
+[Linux]
 
-####  <b>Expected success behavior</b>
-- Blink LED3 (orange)
 
-#### <b>Error behaviors</b>
-- LED3 (orange) does not blink
+Important:**
+First, we need to add the I2C support through STM32CubeMX. This is usually done by opening the .ioc file ( ex: OPENAMP_Sensor_Node.ioc). However, OPENAMP_Sensor_Node does not have the OPENAMP_Sensor_Node.ioc file. This is becasue OPENAMP_Sensor_Node project is evolved from OpenAMP_TTY_Echo example given by the STM32Cube. There are pre-generated reference projects, we cannot open the CubeMX in the STM32CubeIDE. So, we need to find an alternative.
+
 
 ### <b>Keywords</b>
 
 OpenAMP, RPMsg, TFM, IPCC, Inter-Processor Communication
 
-### <b>Hardware and Software environment</b>
 
-  - This example runs on STM32MP25xx devices
-  - This example has been tested with STMicroelectronics STM32MP257F-EV1.
-    and can be easily tailored to any other supported device and development board.
 
-  - Connect ST-Link cable to the PC USB port to display trace
 
-### <b>How to use it ?</b>
-
-In order to make the program work, you must do the following :
-
- - Open your preferred toolchain
- - Rebuild all files and load your image into target memory
- - Run the application
- - Connect a type C device on the Type-C connector 21
